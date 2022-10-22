@@ -1,0 +1,22 @@
+
+{
+    "region" : "eu-west-2",
+    "configuration" : "Debug",
+    "framework"     : "netcoreapp3.1",
+    "self-contained" : false,
+    "application"    : "UrlRedirector",
+    "environment"    : "UrlRedirector-dev",
+    "enable-xray"    : false,
+    "enhanced-health-type" : "basic",
+    "additional-options"   : "\"aws:autoscaling:launchconfiguration,SecurityGroups\"=\"sg-0d803cd8eeaa4c52c,sg-04428d1d74ae99e28\";\"aws:ec2:vpc,Subnets\"=\"subnet-0ca7f72048d1309cc\";\"aws:ec2:vpc,ELBSubnets\"=\"subnet-0ca7f72048d1309cc,subnet-039e7787c65a6343a,subnet-0e3afd20dd7400aee\"",
+    "solution-stack"       : "64bit Amazon Linux 2 v2.3.0 running .NET Core",
+    "environment-type"     : "LoadBalanced",
+    "loadbalancer-type"    : "application",
+    "cname"                : "urlredirector-devqa",
+    "instance-type"        : "t3a.nano",
+    "key-pair"             : "",
+    "health-check-url"     : "/",
+    "instance-profile"     : "aws-elasticbeanstalk-ec2-role",
+    "service-role"         : "aws-elasticbeanstalk-service-role",
+    "proxy-server"         : "nginx"
+}

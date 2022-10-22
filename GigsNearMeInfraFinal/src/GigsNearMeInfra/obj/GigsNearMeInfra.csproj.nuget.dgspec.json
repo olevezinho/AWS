@@ -1,0 +1,117 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\lfili\\source\\repos\\AWS\\GigsNearMeInfraFinal\\src\\GigsNearMeInfra\\GigsNearMeInfra.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\lfili\\source\\repos\\AWS\\GigsNearMeInfraFinal\\src\\GigsNearMeInfra\\GigsNearMeInfra.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\lfili\\source\\repos\\AWS\\GigsNearMeInfraFinal\\src\\GigsNearMeInfra\\GigsNearMeInfra.csproj",
+        "projectName": "GigsNearMeInfra",
+        "projectPath": "C:\\Users\\lfili\\source\\repos\\AWS\\GigsNearMeInfraFinal\\src\\GigsNearMeInfra\\GigsNearMeInfra.csproj",
+        "packagesPath": "C:\\Users\\lfili\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\lfili\\source\\repos\\AWS\\GigsNearMeInfraFinal\\src\\GigsNearMeInfra\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\lfili\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Amazon.CDK": {
+              "target": "Package",
+              "version": "[1.100.*, )"
+            },
+            "Amazon.CDK.AWS.AutoScaling": {
+              "target": "Package",
+              "version": "[1.100.*, )"
+            },
+            "Amazon.CDK.AWS.CloudTrail": {
+              "target": "Package",
+              "version": "[1.100.*, )"
+            },
+            "Amazon.CDK.AWS.CodeDeploy": {
+              "target": "Package",
+              "version": "[1.100.*, )"
+            },
+            "Amazon.CDK.AWS.CodePipeline": {
+              "target": "Package",
+              "version": "[1.100.*, )"
+            },
+            "Amazon.CDK.AWS.CodePipeline.Actions": {
+              "target": "Package",
+              "version": "[1.100.*, )"
+            },
+            "Amazon.CDK.AWS.EC2": {
+              "target": "Package",
+              "version": "[1.100.*, )"
+            },
+            "Amazon.CDK.AWS.ElasticLoadBalancingV2": {
+              "target": "Package",
+              "version": "[1.100.*, )"
+            },
+            "Amazon.CDK.AWS.RDS": {
+              "target": "Package",
+              "version": "[1.100.*, )"
+            },
+            "Amazon.CDK.AWS.S3": {
+              "target": "Package",
+              "version": "[1.100.*, )"
+            },
+            "Amazon.CDK.AWS.SSM": {
+              "target": "Package",
+              "version": "[1.100.*, )"
+            },
+            "Amazon.Jsii.Analyzers": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.305\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
